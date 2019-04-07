@@ -77,13 +77,13 @@ python3 fusion.py --corpus_dir ../corpora/ \
 
 #### Citation
 Please cite the following paper when using this software.
-> @inproceedings{christopoulou2018mixture,
->  title={Mixture of topic-based distributional semantic and affective models},
->  author={Christopoulou, Fenia and Briakou, Eleftheria and Iosif, Elias and Potamianos, Alexandros},
->  booktitle={2018 IEEE 12th International Conference on Semantic Computing (ICSC)},
->  pages={203--210},
->  year={2018},
->  organization={IEEE}
+> @inproceedings{christopoulou2018mixture,\
+>  title={Mixture of topic-based distributional semantic and affective models},\
+>  author={Christopoulou, Fenia and Briakou, Eleftheria and Iosif, Elias and Potamianos, Alexandros},\
+>  booktitle={2018 IEEE 12th International Conference on Semantic Computing (ICSC)},\
+>  pages={203--210},\
+>  year={2018},\
+>  organization={IEEE}\
 > }
 
 
