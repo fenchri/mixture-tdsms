@@ -1,12 +1,12 @@
-# Topic DSMs
+# Mixture of Topic DSMs
 
-Source code for [Mixture of Topic-Based Distributional Semantic and Affective Models](https://ieeexplore.ieee.org/document/8334459/) conference paper.
-
+Implementation for [Mixture of Topic-Based Distributional Semantic and Affective Models](https://ieeexplore.ieee.org/document/8334459/) conference paper.
+The code for the affective model is under development.
 
 ## Datasets
 You can download the corresponding datasets using the following links:
 
-#### WS 353
+#### WS353
 ```sh
 $ cd data/
 $ wget www.cs.technion.ac.il/~gabr/resources/data/wordsim353/wordsim353.zip
