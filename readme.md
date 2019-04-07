@@ -52,6 +52,7 @@ A file with stopwords is provided: ```stopwords.txt```
 
 Run the main script,
 ```sh
+$ cd src/
 $ python3 mix_tdsms.py --corpus_dir ../corpora/ \
                        --topics 50 \
                        --docs toy.doc \
@@ -65,14 +66,15 @@ $ python3 mix_tdsms.py --corpus_dir ../corpora/ \
 In order to perform fusion of multiple topic-based DSM groups generated from different topic models, run the following script.
 The script expects that the topic models and the respective topic-DSMs are already constructed.
 ```sh
-python3 fusion.py --corpus_dir ../corpora/ \
-                  --topics 20 30 40 \
-                  --docs toy.doc \
-                  --sents toy.sent \
-                  --save_dir ../toy_corpus_out/ \
-                  --dataset ../data/SCWS/ratings.txt \
-                  --context \
-                  --name SCWS
+$ cd src/
+$ python3 fusion.py --corpus_dir ../corpora/ \
+                    --topics 20 30 40 \
+                    --docs toy.doc \
+                    --sents toy.sent \
+                    --save_dir ../toy_corpus_out/ \
+                    --dataset ../data/SCWS/ratings.txt \
+                    --context \
+                    --name SCWS
 ```
 
 #### Citation
