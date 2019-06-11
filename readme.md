@@ -1,6 +1,6 @@
 # Mixture of Topic DSMs
 
-Implementation for [Mixture of Topic-Based Distributional Semantic and Affective Models](https://ieeexplore.ieee.org/document/8334459/) conference paper.
+Implementation of source code for experiments in [Mixture of Topic-Based Distributional Semantic and Affective Models](https://ieeexplore.ieee.org/document/8334459/) conference paper.
 The code for the affective model is under development.
 
 ## Datasets
