@@ -39,10 +39,10 @@ Download Google's Word2Vec,
 ```sh
 $ wget https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/word2vec/source-archive.zip
 $ unzip source-archive.zip
-$ cd source-archive/word2vec/trunk/
+$ cd word2vec/trunk/
 $ make
 $ cd ../../../
-$ mv source-archive/word2vec/trunk google-w2v/
+$ mv word2vec/trunk google-w2v/
 ```
 
 #### Run
